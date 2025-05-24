@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Question from './components/Question';
 import questionsData from './data/questions.json';
-import Leaderboard from './components/LeaderBoard';
+import LeaderBoard from './components/LeaderBoard';
 
 const App = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -115,7 +115,7 @@ const App = () => {
             </button>
 
             <div className="pt-6">
-              <Leaderboard/>
+              <LeaderBoard/>
             </div>
           </div>
         )}
