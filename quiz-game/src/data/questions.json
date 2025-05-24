@@ -13,5 +13,40 @@
     "question": "What is 2 + 2?",
     "options": ["3", "4", "5", "6"],
     "correctAnswer": "4"
+  },
+  {
+    "question": "Which language is primarily used for web development?",
+    "options": ["Python", "C++", "JavaScript", "Swift"],
+    "correctAnswer": "JavaScript"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": ["William Wordsworth", "William Shakespeare", "Jane Austen", "Charles Dickens"],
+    "correctAnswer": "William Shakespeare"
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "options": ["90°C", "100°C", "110°C", "120°C"],
+    "correctAnswer": "100°C"
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctAnswer": "Carbon Dioxide"
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
+    "correctAnswer": "Blue Whale"
+  },
+  {
+    "question": "In which continent is the Sahara Desert located?",
+    "options": ["Asia", "Africa", "Australia", "South America"],
+    "correctAnswer": "Africa"
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": ["Gold", "Oxygen", "Osmium", "Olinium"],
+    "correctAnswer": "Oxygen"
   }
 ]
