@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Question from './components/Question';
 import questionsData from './data/questions.json';
-import LeaderBoard from './components/LeaderBoard';
+import LeaderBoard from '../src/components/LeaderBoard';
 
 const App = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
