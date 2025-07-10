@@ -73,13 +73,12 @@ const App = () => {
   }
 
   return (
-    <div className="w-[500px] mx-auto flex flex-col items-center px-4 py-8">
+    <div className="w-[100%] lg:w-[60%] mx-auto flex flex-col items-center px-4 py-8">
       <div className="w-full max-w-xl bg-white rounded-xl shadow-md p-6">
         <h1 className="text-3xl font-bold text-center mb-6 text-blue-700">🚀 Quiz Game</h1>
 
         {!gameOver ? (
           <>
-            {!playerName && (
               <div className="mb-4">
                 <label className="block text-gray-700 mb-1">Enter Your Name</label>
                 <input
@@ -90,7 +89,8 @@ const App = () => {
                   className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </div>
-            )}
+            {/* {!playerName && (
+            )} */}
 
             <div className="flex items-center justify-between mb-4 text-sm text-gray-500">
               <span>⏳ Time Left: <strong>{timeLeft}s</strong></span>
@@ -121,6 +121,10 @@ const App = () => {
         )}
       </div>
     </div>
+
+
+
+
   );
 
 };
