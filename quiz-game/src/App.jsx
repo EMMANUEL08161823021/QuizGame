@@ -36,7 +36,7 @@ const App = () => {
   const handleAnswer = (selectedAnswer) => {
     const currentQuestion = questions[currentQuestionIndex];
     if (selectedAnswer === currentQuestion.correctAnswer) {
-      setScore(score + 10);
+      setScore((prevScore) => prevScore + 10);
     }
     handleNextQuestion();
   };
